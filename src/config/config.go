@@ -5,10 +5,11 @@
 package config
 
 import (
-	"github.com/defenseunicorns/uds-cli/src/types"
+	"runtime"
+
+	"github.com/corang/uds-cli/src/types"
 	zarfConfig "github.com/defenseunicorns/zarf/src/config"
 	zarfTypes "github.com/defenseunicorns/zarf/src/types"
-	"runtime"
 )
 
 const (

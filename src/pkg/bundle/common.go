@@ -7,14 +7,15 @@ package bundle
 import (
 	"errors"
 	"fmt"
-	"github.com/defenseunicorns/uds-cli/src/pkg/bundler"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
-	"github.com/defenseunicorns/uds-cli/src/config"
-	"github.com/defenseunicorns/uds-cli/src/types"
+	"github.com/corang/uds-cli/src/pkg/bundler"
+
+	"github.com/corang/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/types"
 	zarfConfig "github.com/defenseunicorns/zarf/src/config"
 	"github.com/defenseunicorns/zarf/src/pkg/message"
 	"github.com/defenseunicorns/zarf/src/pkg/packager"

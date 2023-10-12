@@ -6,16 +6,17 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/defenseunicorns/uds-cli/src/config"
-	"github.com/defenseunicorns/uds-cli/src/config/lang"
-	"github.com/defenseunicorns/uds-cli/src/pkg/bundle"
-	"github.com/defenseunicorns/zarf/src/pkg/message"
-	"github.com/defenseunicorns/zarf/src/pkg/oci"
-	"github.com/defenseunicorns/zarf/src/pkg/utils/helpers"
 	"os"
 	"strings"
 
-	"github.com/defenseunicorns/uds-cli/src/pkg/utils"
+	"github.com/corang/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/config/lang"
+	"github.com/corang/uds-cli/src/pkg/bundle"
+	"github.com/defenseunicorns/zarf/src/pkg/message"
+	"github.com/defenseunicorns/zarf/src/pkg/oci"
+	"github.com/defenseunicorns/zarf/src/pkg/utils/helpers"
+
+	"github.com/corang/uds-cli/src/pkg/utils"
 	zarfUtils "github.com/defenseunicorns/zarf/src/pkg/utils"
 	"github.com/spf13/cobra"
 )

@@ -3,7 +3,7 @@
 
 ARCH ?= amd64
 CLI_VERSION ?= $(if $(shell git describe --tags),$(shell git describe --tags),"UnknownVersion")
-BUILD_ARGS := -s -w -X 'github.com/defenseunicorns/uds-cli/src/config.CLIVersion=$(CLI_VERSION)'
+BUILD_ARGS := -s -w -X 'github.com/corang/uds-cli/src/config.CLIVersion=$(CLI_VERSION)'
 
 .PHONY: help
 help: ## Display this help information

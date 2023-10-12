@@ -3,7 +3,7 @@
 
 package main
 
-import "github.com/defenseunicorns/uds-cli/src/cmd"
+import "github.com/corang/uds-cli/src/cmd"
 
 func main() {
 	cmd.Execute()

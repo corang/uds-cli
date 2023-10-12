@@ -5,10 +5,11 @@
 package cmd
 
 import (
-	"github.com/defenseunicorns/uds-cli/src/config/lang"
-	"github.com/defenseunicorns/zarf/src/cmd/common"
 	"os"
 	"strings"
+
+	"github.com/corang/uds-cli/src/config/lang"
+	"github.com/defenseunicorns/zarf/src/cmd/common"
 
 	"github.com/defenseunicorns/zarf/src/pkg/message"
 	"github.com/spf13/viper"

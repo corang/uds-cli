@@ -22,9 +22,9 @@ import (
 	"oras.land/oras-go/v2/content"
 	ocistore "oras.land/oras-go/v2/content/oci"
 
-	"github.com/defenseunicorns/uds-cli/src/config"
-	"github.com/defenseunicorns/uds-cli/src/pkg/bundler"
-	"github.com/defenseunicorns/uds-cli/src/types"
+	"github.com/corang/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/pkg/bundler"
+	"github.com/corang/uds-cli/src/types"
 )
 
 // Create creates the bundle and outputs to a local tarball

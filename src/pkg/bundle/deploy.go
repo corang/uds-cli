@@ -22,8 +22,8 @@ import (
 	"github.com/defenseunicorns/zarf/src/pkg/utils"
 	zarfTypes "github.com/defenseunicorns/zarf/src/types"
 
-	"github.com/defenseunicorns/uds-cli/src/config"
-	"github.com/defenseunicorns/uds-cli/src/types"
+	"github.com/corang/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/types"
 )
 
 // Deploy deploys a bundle

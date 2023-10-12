@@ -6,12 +6,13 @@ package test
 
 import (
 	"fmt"
-	"github.com/defenseunicorns/uds-cli/src/test"
 	"os"
 	"path"
 	"testing"
 
-	"github.com/defenseunicorns/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/test"
+
+	"github.com/corang/uds-cli/src/config"
 	"github.com/defenseunicorns/zarf/src/pkg/message"
 	"github.com/pterm/pterm"
 )

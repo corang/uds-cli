@@ -7,8 +7,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/defenseunicorns/uds-cli/src/config"
-	"github.com/defenseunicorns/uds-cli/src/config/lang"
+	"github.com/corang/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/config/lang"
 	"github.com/spf13/cobra"
 )
 

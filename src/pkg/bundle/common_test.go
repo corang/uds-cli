@@ -3,7 +3,7 @@ package bundle
 import (
 	"testing"
 
-	"github.com/defenseunicorns/uds-cli/src/types"
+	"github.com/corang/uds-cli/src/types"
 )
 
 func Test_validateBundleVars(t *testing.T) {

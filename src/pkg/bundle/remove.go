@@ -7,7 +7,7 @@ package bundle
 import (
 	"context"
 
-	"github.com/defenseunicorns/uds-cli/src/config"
+	"github.com/corang/uds-cli/src/config"
 	"github.com/defenseunicorns/zarf/src/pkg/packager"
 	"github.com/defenseunicorns/zarf/src/pkg/utils"
 	"github.com/defenseunicorns/zarf/src/types"

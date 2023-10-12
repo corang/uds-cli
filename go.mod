@@ -1,4 +1,4 @@
-module github.com/defenseunicorns/uds-cli
+module github.com/corang/uds-cli
 
 go 1.19
 
