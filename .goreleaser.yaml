@@ -45,7 +45,7 @@ changelog:
 # Generate a GitHub release and publish the release for the tag
 release:
   github:
-    owner: defenseunicorns
+    owner: corang
     name: uds-cli
   prerelease: auto
   mode: append
